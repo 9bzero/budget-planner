@@ -1,23 +1,29 @@
-# budget-planner
+# Budget Planner
 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-
-> Monthly budget planner with income/expense tracking and category charts
+Monthly budget planner — track income and expenses by category, visualize spending, and set savings goals.
 
 ## Features
-- 💰 Track income and expenses with categories
-- 📊 Visual category breakdown with progress bars
-- ⚡ Real-time balance calculation
-- 🗑️ Remove individual entries
-- 📋 Pre-loaded with example data
 
-## Tech Stack
-`React 18` · `TypeScript` · `Vite`
+- Income and expense entry with category tags
+- Monthly budget limits per category
+- Bar and pie charts for spending breakdown
+- Savings goal tracker with progress bar
+- Month-over-month comparison
+- Export transactions as CSV
+- All data in localStorage — no account required
 
-## Quick Start
+## Stack
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61dafb?style=flat&logo=react&logoColor=black)
+![Recharts](https://img.shields.io/badge/Recharts-22c55e?style=flat)
+![Vite](https://img.shields.io/badge/Vite-646cff?style=flat&logo=vite&logoColor=white)
+
+## Run locally
+
 ```bash
 npm install && npm run dev
 ```
 
-## License
-[MIT](LICENSE)
+---
+Made by [9bzero](https://github.com/9bzero)
